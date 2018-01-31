@@ -1,14 +1,17 @@
+                                              _________________
+                                             |                 |
+                                             |  UNIX COMMANDS  |
+                                             |_________________|
+NAME:
 
-
-
-
-NAME
      1)  who - show who is logged on
 
-SYNOPSIS
+SYNOPSIS:
+
        who [OPTION]... [ FILE | ARG1 ARG2 ]
 
-DESCRIPTION
+DESCRIPTION:
+
        Print information about users who are currently logged in.
 
        -a, --all
@@ -73,13 +76,16 @@ DESCRIPTION
 
 
 
-NAME
+NAME:
+
     2)   ls - list directory contents
 
-SYNOPSIS
+SYNOPSIS:
+
        ls [OPTION]... [FILE]...
 
-DESCRIPTION
+DESCRIPTION:
+
        List information about the FILEs (the current directory by default).  Sort entries alphabetically if none of -cftuvSUX nor --sort is specified.
 
        Mandatory arguments to long options are mandatory for short options too.
