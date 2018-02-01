@@ -1,0 +1,55 @@
+
+
+cs2016a213@user:~/abhi1$ cut -d   "," -f 1 abhi.csv
+ Name
+nAME
+CHOTU NIKALAM
+PHYSC SAMSE
+TINKU
+MANOJ REDDY
+SUHAS KUMAR
+SHREYAS ITC
+SHASHANK MADHAV
+SAMATHA nikalam
+cs2016a213@user:~/abhi1$ cut -d   "," -f 1 abhi.csv|grep -v "name"
+ Name
+nAME
+CHOTU NIKALAM
+PHYSC SAMSE
+TINKU
+MANOJ REDDY
+SUHAS KUMAR
+SHREYAS ITC
+SHASHANK MADHAV
+SAMATHA nikalam
+cs2016a213@user:~/abhi1$ cut -d   "," -f 1 abhi.csv|grep -v "nAME"
+ Name
+CHOTU NIKALAM
+PHYSC SAMSE
+TINKU
+MANOJ REDDY
+SUHAS KUMAR
+SHREYAS ITC
+SHASHANK MADHAV
+SAMATHA nikalam
+cs2016a213@user:~/abhi1$ cut -d   "," -f 1 abhi.csv|grep -v "Name"
+nAME
+CHOTU NIKALAM
+PHYSC SAMSE
+TINKU
+MANOJ REDDY
+SUHAS KUMAR
+SHREYAS ITC
+SHASHANK MADHAV
+SAMATHA nikalam
+cs2016a213@user:~/abhi1$ date
+Thu Feb  1 10:37:37 IST 2018
+cs2016a213@user:~/abhi1$ date | cut -d " " -f 4
+1
+cs2016a213@user:~/abhi1$ date | cut -d " " -f 5
+10:38:34
+cs2016a213@user:~/abhi1$ time
+
+real	0m0.000s
+user	0m0.000s
+sys	0m0.000s
