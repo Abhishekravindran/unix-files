@@ -1,0 +1,28 @@
+echo "enter the percentage of the student"
+read a
+if test $a -gt 90
+then
+        echo "grade O"
+elif test $a -gt 80
+then
+        echo "grade A"
+elif test $a -gt 70
+then
+        echo "grade B"
+elif test $a -gt 60
+then
+        echo "grade C"
+elif test $a -gt 50
+then
+        echo "grade D"
+else
+        echo "fail"
+fi
+
+
+OUTPUT
+cs2016a213@user:~$ sh abhi3.sh
+enter the percentage of the student
+90
+grade A
+
