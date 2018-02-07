@@ -1,0 +1,9 @@
+s= date "+%d -%m -%Y "
+r= time
+s= date+time"%T"
+echo" date is $s "
+
+OUTPUT
+
+cs2016a213@user:~$ sh date.sh
+07 -02 -2018 10:36:50 
