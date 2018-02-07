@@ -1,0 +1,27 @@
+echo "enter a number"
+read a
+echo " the number A= $a"
+if test $a -gt 0
+then
+        echo " its a positive integer"
+else
+        echo "its a negetive number"
+fi
+
+
+
+OUTPUT
+
+cs2016a213@user:~$ sh abhi2.sh
+enter a number
+2
+ the number A= 2
+ its a positive integer
+
+
+cs2016a213@user:~$ vim abhi2.sh
+cs2016a213@user:~$ sh abhi2.sh
+enter a number
+-3
+ the number A= -3
+its a negetive number
