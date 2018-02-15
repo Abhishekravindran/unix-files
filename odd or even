@@ -1,0 +1,27 @@
+echo "the even numbers are"
+n=20
+while  [ $n -ge 0 ]
+        do
+
+                echo "$n"
+                        n=`expr $n - 2`
+        done
+        
+        
+        
+        OUTPUT
+        
+        
+        cs2016a213@user:~$ sh prime2.sh
+the even numbers are
+20
+18
+16
+14
+12
+10
+8
+6
+4
+2
+0
