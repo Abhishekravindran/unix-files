@@ -1,0 +1,36 @@
+a="abc"
+b="efg"
+
+if [ $a = $b ]
+then
+           echo "$a = $b : a is equal to b"
+   else
+              echo "$a = $b: a is not equal to b"
+      fi
+
+      if [ $a != $b ]
+      then
+                 echo "$a != $b : a is not equal to b"
+         else
+                    echo "$a != $b: a is equal to b"
+            fi
+
+            if [ -z $a ]
+            then
+                       echo "-z $a : string length is zero"
+               else
+                          echo "-z $a : string length is not zero"
+                  fi
+                  
+                  
+                  
+                  
+                  
+OUTPUT
+cs2016a213@user:~$ sh string.sh
+abc = efg: a is not equal to b
+abc != efg : a is not equal to b
+-z abc : string length is not zero
+-n abc : string length is not zero
+abc : string is not empty
+
